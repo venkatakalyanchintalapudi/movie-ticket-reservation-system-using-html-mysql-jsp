@@ -11,7 +11,7 @@
 	{
 		try{
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/dbmsproject","root","Kalyan@2476");
+			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/dbmsproject","root","root");
 			
 		}
 		catch(Exception e){
